@@ -7,9 +7,6 @@ import { Link, useNavigate } from "react-router-dom";
 function Home(){
     let history = useNavigate()
 
-    const createHandler = () => {
-
-    }
     const editHandler = (id, name, age) => {
         localStorage.setItem("Name", name)
         localStorage.setItem("Age", age)
@@ -28,7 +25,7 @@ function Home(){
         <Fragment>
             <div style={{margin:"10rem"}}>
                 <Link to={'/create'}>
-                    <Button size="lg" onClick={() => createHandler()}>Add</Button>&nbsp;
+                    <Button size="lg">Add</Button>&nbsp;
                 </Link>
                 <br></br><br></br>
                 <Table striped bordered hover size="sm" variant="light">
