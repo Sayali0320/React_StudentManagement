@@ -28,6 +28,7 @@ function Add(){
     return(
         <div>
             <Form className="d-grid gap-2" style={{margin:"15rem"}}>
+                <b style={{fontSize:"30px"}}>Add Student</b>
                 <Form.Group className="nb-3" controlId="formName">
                     <Form.Control type="text" placeholder="Enter your name" required onChange={(e) => setName(e.target.value)}>
                     </Form.Control>

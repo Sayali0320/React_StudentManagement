@@ -35,6 +35,7 @@ function Edit() {
   return (
     <div>
       <Form className="d-grid gap-2" style={{ margin: "15rem" }}>
+      <b style={{fontSize:"30px"}}>Edit Student</b>
         <Form.Group className="nb-3" controlId="formName">
           <Form.Control
             type="text"
